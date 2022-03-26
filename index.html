@@ -8,66 +8,109 @@
   <meta name="keywords" content="name, page, links, image, text">
   <meta name="description" content="Это первая моя страничка)">
   <title>Домашний питомец!</title>
+  <link rel="stylesheet" href="Style.css">
 </head>
 
 <body>
-  <img src="./cat.jpg" width="200" alt="Здесь картинка Баксика">
-  <h1>Кот Баксик</h1>
-  <p>Как и у большинства семей, у нас есть домашний питомец. Это кот <strong>Баксик.</strong> Он
-    <strong>сфинкс.</strong> У него весьма необычный внешний вид, некоторый даже при первой встрече немного его
-    пугаются, но со временем мнение людей меняется, потому что <em> сфинксы очень ласковые и добрые коты.</em> По утрам
-    он любит греться на солнышке, поэтому мы всегда знаем где его найти. А еще он очень боится <em>холода</em> и
-    постоянно прячется под <em>одеялом или пледом.</em> Его любимое занятие это <strong>сон.</strong> Баксик может целый
-    день проспать, а ночью он может начать бегать по всей квартире и будит нас, в такие моменты <em>мы очень
-      злимся!)</em>
-  </p>
-  <a href="https://zooqi.by/social/porody/vybiraem-sfinksa-vse-o-porode-ob-uhode-i-osobennostah-haraktera?ccity_id=1002"
-    target="blank">Как выбрать сфинкса</a> |
-  <a href="  https://avzvet.ru/advice/koshki-uhod-za-sherstyu/kak-pravilno-uhazhivat-za-sfinksami/"
-    target="blank">Особенности ухода за сфинксами</a>
-  <h3>Хобби нашего питомца</h3>
-  <ol type="A">
-    <li>Покушать</li>
-    <li>Поспать</li>
-    <li>Погреться на солнышке</li>
-    <li>Поиграть с игрушками</li>
-  </ol>
-  <h3>Характеристики Баксика</h3>
-  <table>
-    <thead>
-      <tr>
-        <th>Рост</th>
-        <th>Вес</th>
-        <th>Цвет</th>
-        <th>Количество лап</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>30 сантиметров</td>
-        <td>6 килограмм</td>
-        <td>Серый</td>
-        <td>4 лапки</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3>Если Вас заинтересовал наш питомец и Вы хотели бы с ним сделать фото, Вы можете с нами связаться</h3>
-  <form>
-    <div>
-      <label for="text1">Ваше имя</label>
-      <input type="text" id="text1" placeholder="Введите имя">
+  <div>
+    <nav class="navbar">
+      <ul>
+        <li class="first"><a class="q" href="#">Здесь кнопка</a></li>
+        <li><a class="q" href="#">Здесь тоже</a></li>
+        <li><a class="q" href="#">Не ошибешься</a></li>
+        <li><a class="q" href="#">Однозначно</a></li>
+        <li><a class="q" href="#">Я не вру</a></li>
+        <li class="sixs"><a class="q" href="#">Веришь?</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="container">
+    <div class="display">
+      <header class="hed">
+        <img class="image" src="./cat.jpg" width="200" alt="Здесь картинка Баксика">
+      </header>
+
+      <section class="main">
+        <article class="text">
+          <h1 class="h1">Кот Баксик</h1>
+          <p>Как и у большинства семей, у нас есть домашний питомец. Это кот <strong>Баксик.</strong> Он
+            <strong>сфинкс.</strong> У него весьма необычный внешний вид, некоторый даже при первой встрече немного его
+            пугаются, но со временем мнение людей меняется, потому что <em> сфинксы очень ласковые и добрые коты.</em>
+            <span class="tex">По
+              утрам
+              он любит греться на солнышке, поэтому мы всегда знаем где его найти.</span> А еще он очень боится
+            <em>холода</em> и
+            постоянно прячется под <em>одеялом или пледом.</em> Его любимое занятие это <strong>сон.</strong> Баксик
+            может
+            целый
+            день проспать, а ночью он может начать бегать по всей квартире и будит нас, в такие моменты <em>мы очень
+              злимся!)</em>
+          </p>
+        </article>
     </div>
-    <div>
-      <label for="email1">Ваш еmail</label>
-      <input type="email" id="email1" placeholder="Введите email">
-    </div>
-    <div>
-      <label for="message">Ваше сообщение</label>
-      <br>
-      <textarea id="message" cols="50" rows="3" placeholder="Введите сообщение..."></textarea>
-      <button type="submit">Отправить заявку</button>
-    </div>
-  </form>
+
+    <article class="links">
+      <a class="button"
+        href="https://zooqi.by/social/porody/vybiraem-sfinksa-vse-o-porode-ob-uhode-i-osobennostah-haraktera?ccity_id=1002"
+        target="blank" class="links1">Как выбрать сфинкса</a> |
+      <a class="button" href="  https://avzvet.ru/advice/koshki-uhod-za-sherstyu/kak-pravilno-uhazhivat-za-sfinksami/"
+        target="blank" class="links1">Особенности ухода за сфинксами</a>
+    </article>
+
+    <article class="list">
+      <h3>Хобби нашего питомца</h3>
+      <ol class="list1" type="A">
+        <li>Покушать</li>
+        <li>Поспать</li>
+        <li>Погреться на солнышке</li>
+        <li>Поиграть с игрушками</li>
+      </ol>
+    </article>
+
+    <article class="table">
+      <h3>Характеристики Баксика</h3>
+      <table class="tab">
+        <thead>
+          <tr>
+            <th>Рост</th>
+            <th>Вес</th>
+            <th>Цвет</th>
+            <th>Количество лап</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>30 сантиметров</td>
+            <td>6 килограмм</td>
+            <td>Серый</td>
+            <td>4 лапки</td>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+    </section>
+
+    <footer class="ter">
+      <h3>Если Вас заинтересовал наш питомец и Вы хотели бы с ним сделать фото, Вы можете с нами связаться</h3>
+      <form class="foot">
+        <div>
+          <label for="text1">Ваше имя</label>
+          <input type="text" id="text1" placeholder="Введите имя">
+        </div>
+        <div>
+          <label for="email1">Ваш еmail</label>
+          <input type="email" id="email1" placeholder="Введите email">
+        </div>
+        <div>
+          <label for="message">Ваши пожелания</label>
+          <br>
+          <textarea id="message" cols="50" rows="3" placeholder="Введите сообщение..."></textarea>
+          <button class="button" type="submit">Отправить заявку</button>
+        </div>
+      </form>
+    </footer>
+  </div>
 </body>
 
 </html>

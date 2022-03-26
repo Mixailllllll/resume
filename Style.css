@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: EB Garamond , sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: rgb(193, 236, 236);
+  padding: 10px;
+}
+
+h1 {
+  color:rgb(26, 9, 80);
+  font-size: 30px;
+  padding-left: 30px;
+}
+
+h3 {
+  color:rgb(26, 9, 80);
+  padding-left: 30px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.hed, .text, .list, .table, .ter {
+  border: 2px solid rgb(17, 171, 228);
+  border-radius: 10px;
+  background-color: rgb(222, 222, 245);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar {
+  border: 2px solid rgb(17, 171, 228);
+  background-color: rgb(32, 179, 184);
+  cursor: pointer;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.navbar a {
+  color: aliceblue;
+}
+
+.navbar ul li:hover {
+  background: rgb(93 86 197);
+  padding-bottom: 10px;
+}
+
+.q {
+  text-decoration: none;
+}
+
+.hed {
+  padding: 15px 15px 15px 15px;
+  height: 268px;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+
+.image {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.text {
+  padding: 15px 30px;
+  margin-top: 50px;
+}
+
+.tex {
+  color: deeppink;
+}
+
+.display {
+  display: flex;
+}
+
+.links {
+  margin: 15px 0px 15px 1px;
+  font-size: 17px;
+}
+
+.links1:hover {
+  color: rgb(44, 5, 235);
+}
+
+.list1 {
+  padding: 10px 40px;
+  list-style: none;
+}
+
+.list1 li {
+  border-bottom: 1px solid gray;
+  margin-left: -10px;
+}
+
+.button {
+  margin-bottom: 5px;
+  padding: 3px 5px;
+  background-color: aquamarine;
+  color:  rgba(24, 8, 235, 0.774);
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid rgb(2, 14, 19) ;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: rgb(13, 2, 67);
+  opacity: 0.5;
+}
+
+.foot {
+  padding-left: 30px;
+}
+
+.tab {
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.tab td {
+  text-align: center;
+  border: 1px solid rgb(2, 14, 19);
+}
+
+.tab th {
+  border: 1px solid rgb(2, 14, 19);
+}
+
+.tab td:nth-child(2), .tab td:nth-child(4) {
+  background: rgb(164, 149, 253);
+}
+
+.tab th:nth-child(2), .tab th:nth-child(4) {
+  background: rgb(164, 149, 253);
+}
+
+.tab td:nth-child(1), .tab td:nth-child(3) {
+  background: rgb(184, 181, 199);
+}
+
+.tab th:nth-child(1), .tab th:nth-child(3) {
+  background: rgb(184, 181, 199);
+}
+
+@media (max-width: 1039px) {
+  .navbar a {
+    font-size: 0.99rem;
+  }
+}
+
+@media (max-width: 826px) {
+  body {
+    font-family: EB Garamond , sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    background-color: rgb(193, 236, 236);
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  .navbar a {
+    font-size: 0.75rem;
+  }
+
+  .image {
+    width: 170px;
+  }
+
+  .hed {
+    padding: 15px 15px 15px 15px;
+    height: 230px;
+  }
+
+  .text {
+    padding: 7px 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .navbar a {
+    font-size: 0.7rem;
+  }
+
+  body {
+    font-family: EB Garamond , sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: rgb(193, 236, 236);
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  .image {
+    width: 150px;
+  }
+
+  .hed {
+    padding: 15px 15px 15px 15px;
+    height: 205px;
+  }
+
+  .text {
+    padding: 7px 10px;
+  }
+
+  .links {
+    font-size: 15px;
+  }
+
+  textarea {
+    width: 230px;
+  }
+
+  button {
+    width: 120px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .image {
+    width: 120px;
+  }
+
+  .hed {
+    padding: 7px 7px 7px 7px;
+    height: 165px;
+  }
+
+  .links {
+    font-size: 13px;
+  }
+
+  textarea {
+    width: 200px;
+  }
+
+  button {
+    width: 105px;
+    font-size: 11px;
+  }
+}
